@@ -6,7 +6,7 @@ Do you ever wonder what it takes to build the back end for an e-commerce website
 Technologies used: HTML, JavaScript, jQuery, Node, Express, Insomnia, Handlebars, MySQL and ORM.
 
 ## Links 
-- GitHub repository: 
+- GitHub repository: https://github.com/kagebright/BrightStore
 - [video]
 
 ## Screenshot 

@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
         }
       ],
     });
-    res.status(200).json(categotyData);
+    res.status(200).json(categoryData);
   }catch (err) {
   console.error(err);
   res.status(500).json({message: 'Error retrieving categories'});
@@ -48,7 +48,7 @@ router.post('/', async (req, res) => {
     res.json(newCategory);
   } catch (err) {
     console.error(err);
-    res.status(500).json
+    res.status(500).json({message: 'Error creating a new category'});
   }
   });
 
@@ -64,11 +64,11 @@ router.put('/:id', async (req, res) => {
       const updatedCategory = await Category.findByPk(req.params.id);
       res.json(updatedCategory);
     } else {
-      res.status(404).json
+      res.status(404).json({message: 'Category not found'})
     }
   } catch (err) {
     console.error(err);
-    res.status(500).json
+    res.status(500).json({message: 'Error updating category'})
   }
 });
 
@@ -83,7 +83,7 @@ router.delete('/:id', async (req, res) => {
     if (deleted) {
       res.json({message: 'Category deleted'});
     } else {
-      res.status(404).json
+      res.status(404).json({message: 'Category not found'})
     }
   } catch (err) {
     console.error(err);

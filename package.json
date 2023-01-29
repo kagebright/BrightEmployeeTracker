@@ -1,7 +1,7 @@
 {
   "name": "library-db",
   "version": "1.0.0",
-  "description": "Technologies used: HTML, JavaScript, jQuery, Node, Express, Insomnia, Handlebars, MySQL and ORM.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,18 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "inquirer": "^8.2.4",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kagebright/BrightStore.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kagebright/BrightStore/issues"
-  },
-  "homepage": "https://github.com/kagebright/BrightStore#readme"
+  }
 }

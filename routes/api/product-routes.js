@@ -29,7 +29,8 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
-  Product.findOne({
+  try {
+    const product = await Product.findOne({
     where: {
       id:req.params.id,
     },
@@ -42,13 +43,15 @@ router.get('/:id', async (req, res) => {
       }
     ]
   });
-  .then((product) => {
+  
   if (!product) {
   return res.status(404).json({message: 'Product not found'});
   }
-  res.status(200).json(product);
-})
-.catch((err) => res.status(400).json(err));
+  return res.json(product)
+
+} catch (err) {
+  res.status(400).json(err);
+}
 });
 
 

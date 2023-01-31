@@ -1,12 +1,21 @@
-# Week 13: BrightStore-E-Commerce
+# Week 13: BrightStore Backend Application
 
 ## Description:
-Do you ever wonder what it takes to build the back end for an e-commerce website? This project allows a user to build the backend for an e-commerce site with the help of a starter code and by configuring a working Express.js API to use Sequelize to interact with a MySQL database.
+Do you ever wonder what it takes to build the back end for an e-commerce website? This project allows a user to build the backend for an e-commerce site with the help of a starter code and by configuring a working Express.js API to use Sequelize to interact with a MySQL database. The app will connect to the database and can perform operations such as creating, updating, and deleting data. The application also provides API GET routes for categories, products, and tags that return data in a formatted JSON.
 
-Technologies used: HTML, JavaScript, jQuery, Node, Express, Insomnia, Handlebars, MySQL and ORM.
+## Technologies used: 
+- HTML
+- JavaScript 
+- Node, 
+- Express
+- Insomnia 
+- Handlebars
+- MySQL 
+- ORM.
+- Sequelize
 
 ## Links 
-- GitHub repository: https://github.com/kagebright/BrightStore
+- [GitHub repository](https://github.com/kagebright/E-commerce-Application)
 - [video]
 
 ## Screenshot 

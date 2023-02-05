@@ -22,7 +22,7 @@ Do you ever wonder what it takes to build the back end for an e-commerce website
 - Then start the server by typing `npm start` and test the API routes using Insomnia to verify the functionality.
 
 ## Links 
-- [GitHub repo](https://github.com/kagebright/E-commerce-Application)
+- [GitHub repo](https://github.com/kagebright/BrightStore-E-commerce-Application)
 - [Walkthrough video](https://user-images.githubusercontent.com/113262558/216807685-f89ae69e-39c4-4461-94cb-768e337ae6b9.mov)
 
 ## Screenshot 

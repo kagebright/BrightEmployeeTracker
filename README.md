@@ -14,8 +14,14 @@ Do you ever wonder what it takes to build the back end for an e-commerce website
 - ORM.
 - Sequelize
 
+## Installation
+- Install the required packages and dependencies by running npm install in the terminal.
+- Set up the database using the `schema.sql` file in ``db` and then source it my MySQL.
+- Seed the database with the data by typing `npm run seed`.
+- Then start the server by typing `npm start` and test the API routes using Insomnia to verify the functionality.
+
 ## Links 
 - [GitHub repository](https://github.com/kagebright/E-commerce-Application)
-- [video]
+- [Walkthrough video]()
 
 ## Screenshot 

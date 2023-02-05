@@ -34,7 +34,7 @@ router.get('/:id', async (req, res) => {
         }
       ]
     });
-    res.status(200).json(categotyData);
+    res.status(200).json(categoryData);
   } catch (err) {
   console.error(err);
   res.status(500).json({message: 'Error retrieving categories'});
@@ -87,7 +87,7 @@ router.delete('/:id', async (req, res) => {
     }
   } catch (err) {
     console.error(err);
-    res.status(500).json
+    res.status(500).json({ message: 'Error deleting category'});
   }
 });
 
